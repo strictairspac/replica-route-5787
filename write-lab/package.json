@@ -1,0 +1,12 @@
+{
+  "name": "write-consistency-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "写入一致性演练场：多数派确认 / 写号幂等 / 换主不丢数据（纯前端确定性模拟）",
+  "scripts": {
+    "test": "node --test --test-timeout=20000"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
